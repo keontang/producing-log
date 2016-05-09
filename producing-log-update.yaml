@@ -8,6 +8,7 @@ spec:
     metadata:
       labels:
         app: producing-log
+        version: v2
     spec:
       containers:
       - name: producing-log
