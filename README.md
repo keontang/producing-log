@@ -3,12 +3,12 @@ A simple k8s pod who can produce logs, then we can search the pod, container and
 ---  
 create nginx deployment:  
 ```
-kubectl create -f nginx-deployment.yaml
+kubectl create -f producing-log.yaml
 ```
 
 update nginx deployment:  
 ```
-kubectl apply -f nginx-deployment-update.yaml
+kubectl apply -f producing-log-update.yaml
 ```
 
 Rolling Back to a Previous Revision:
