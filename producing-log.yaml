@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: producing-log-deployment
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: producing-log
+    spec:
+      containers:
+      - name: producing-log
+        image: index.caicloud.io/caicloud/producing-log:1.0
