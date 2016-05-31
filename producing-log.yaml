@@ -11,4 +11,4 @@ spec:
     spec:
       containers:
       - name: producing-log
-        image: index.caicloud.io/caicloud/producing-log:1.0
+        image: index.caicloud.io/caicloud/producing-log:v1.0
